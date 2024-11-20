@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Поле для ввода ID актера -->
+    <EditText
+        android:id="@+id/actorIdEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Actor ID"
+        android:inputType="number"
+        android:padding="10dp"/>
+
+    <!-- Кнопка для получения данных -->
+    <Button
+        android:id="@+id/fetchDataButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fetch Actor Data"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Текст для отображения имени актера -->
+    <TextView
+        android:id="@+id/actorNameTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Actor Name"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Текст для отображения профессии актера -->
+    <TextView
+        android:id="@+id/actorProfessionTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Actor Profession"
+        android:textSize="16sp"
+        android:layout_marginTop="8dp"/>
+
+    <!-- Текст для отображения ссылки на постер -->
+    <TextView
+        android:id="@+id/actorPosterUrlTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Poster URL"
+        android:textSize="14sp"
+        android:layout_marginTop="8dp"/>
+</LinearLayout>
